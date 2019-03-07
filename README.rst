@@ -1,8 +1,8 @@
 WeeWX Responsive Skin
 =====================
 
-This my fork of weewx-responsive-skin_ by dacpslock_. It carries changes I've
-made that are no applicable for upstream. All changes I've made are made are
+This my fork of weewx-responsive-skin_ by dcapslock_. It carries changes I've
+made that are not applicable for upstream. All changes I've made are made are
 licensed as per the LICENSE_ file.
 
 The canonical home for this repo is https://git.mcwhirter.io/craige/weewx-responsive-skin
