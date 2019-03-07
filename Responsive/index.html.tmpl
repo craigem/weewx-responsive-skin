@@ -5,7 +5,7 @@
 #encoding UTF-8
 #import dateutil.parser
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en_AU">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>$station.location Weather</title>
@@ -49,7 +49,12 @@
         <div class="col-md-12 panel-heading">
           <div class="col-md-6 clearfix">
             <h4>
-                <div class="pull-left">$station.location Weather</div>
+                <div class="pull-left">
+                  $station.location Weather
+                  &nbsp;
+                  <a href="https://liberapay.com/craige/donate"><img alt="Donate using Liberapay" src="https://mcwhirter.com.au/files/lp_donate.svg"></a>
+                </div>
+               
                 <div class="pull-right">
                     #if $Extras.has_key('use_warn') and $Extras.use_warn == '1'
                     <a style="color: white;" href="#" data-toggle="tooltip" title="Severe weather warnings active"><span id="icon-severe" class="hidden glyphicon glyphicon-exclamation-sign"></span></a>
@@ -419,7 +424,7 @@
                   <a href="$Extras.radar_url" target="_blank">
                     <img src="$Extras.radar_img" class="center-block img-responsive" style="padding-bottom: 5px;" alt="Radar" />
                   </a>
-                  <p class="text-center">Click on the image above for an hourly animation</p>
+                  <p class="text-center">Click on the image above for a daily animation</p>
                 </div>
               </div>
             </div>
@@ -795,6 +800,10 @@
                     This station uses a $station.hardware, controlled by <a href="http://www.weewx.com">'weewx'</a>, an experimental
                     weather software system written in Python. Weewx was designed to be simple,
                     fast, and easy to understand by leveraging modern software concepts.
+                  </p>
+                  <p class="text-center">
+                    To support the continued operation of this weather station, please click below: <br />
+                    <a href="https://liberapay.com/craige/donate"><img alt="Donate using Liberapay" src="https://mcwhirter.com.au/files/lp_donate.svg"></a>
                   </p>
                   <p class="text-center">
                     Weewx uptime:  $station.uptime<br />

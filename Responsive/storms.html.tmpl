@@ -63,7 +63,11 @@
         <div class="col-md-12 panel-heading">
           <div class="col-md-6">
             <h4>
-                <div class="pull-left"><a href="$station.station_url"><span class="glyphicon glyphicon-home" style="color: white"></span></a>&nbsp;&nbsp;$station.location Weather - Storms</div>
+                <div class="pull-left">
+                  <a href="$station.station_url"><span class="glyphicon glyphicon-home" style="color: white"></span></a>&nbsp;&nbsp;$station.location Weather - Storms
+                  &nbsp;
+                  <a href="https://liberapay.com/craige/donate"><img alt="Donate using Liberapay" src="https://mcwhirter.com.au/files/lp_donate.svg"></a>
+                </div>
                 <div class="pull-right">
                     #if $Extras.has_key('use_warn') and $Extras.use_warn == '1'
                     <a style="color: white;" href="#" data-toggle="tooltip" title="Severe weather warnings active"><span id="icon-severe" class="hidden glyphicon glyphicon-exclamation-sign"></span></a>
