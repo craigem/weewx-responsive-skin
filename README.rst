@@ -20,4 +20,4 @@ The canonical home for this repo is https://git.mcwhirter.io/craige/weewx-respon
 .. _Propellor: http://propellor.branchable.com/
 .. _weewx: http://weewx.com/
 .. _Weewx.hs: https://git.mcwhirter.io/craige/propellor-mio/blob/master/src/Propellor/Property/SiteSpecific/WeeWX.hs
-.. _my Proplellor: https://git.mcwhirter.io/craige/propellor-mio
+.. _my Propellor: https://git.mcwhirter.io/craige/propellor-mio
