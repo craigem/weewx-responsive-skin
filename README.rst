@@ -7,7 +7,7 @@ licensed as per the LICENSE_ file.
 
 I use Propellor_ to deploy weewx_ and my configuration and additional scripts
 required to keep the site up to date, as well as gather BOM imagery are in the
-WeeWX.hs_ file in `my Propoller`_ repo.
+WeeWX.hs_ file in `my Propellor`_ repo.
 
 The canonical home for this repo is https://git.mcwhirter.io/craige/weewx-responsive-skin
 
